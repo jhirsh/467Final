@@ -1,21 +1,23 @@
-# MAAV Software
+# EECS 467 - Autonomous Robotics Final Project
+## University of Michigan - Adam Dziedzic, Jingliang Ren, Ryan Wunderly, Jonas Hirshland {dziedada, meow, rywunder, jhirshey}@umich.edu
 
 ---
 
-## Table Of Contents
+## Goalkeeper
+
+Goalkeeper is an autonomous robot that senses incoming balls and blocks them from passing. It was inspired by goalies in various sports, but mainly soccer. We demonstrate what ability is required in order to react to a human rolling a ball in the robot’s direction.
+
+The arm mimics a human arm playing air hockey, projected to a two-dimensional space. We first used Solidworks to mock up the configuration of Rexarm parts, and then designed a custom end effector and 3D printed the end effector. The arm uses one AX-12+ and two Dynamixel MX-28 servos to move.
+
+## Perception
+
+We use Intel Realsense D435 RGBD cameras for rgb and depth images as well as point clouds of the environment.
 
 ---
-
-## GNC
-
-Guidance, navigation, and control.
 
 ### Setup and Running
 
 `./scripts/setup.sh`
-
-Set the MAAV_SOFTWARE_DIR environment variable on your machine to the path to the maav software
-folder on your machine. Add export MAAV_SOFTWARE_DIR='path' to your shell config.
 
 ### Compile the code:
 
@@ -27,16 +29,4 @@ folder on your machine. Add export MAAV_SOFTWARE_DIR='path' to your shell config
 
 `make -j`
 
-### Download the TUMs dataset (GNC):
-
-https://vision.in.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_xyz.tgz
-
-extract into `datasets/`
-
-### Run the example (GNC):
-
-`./bin/tums Vocabulary/ORBvoc.txt tests/tums/TUM1.yaml datasets/rgbd_dataset_freiburg1_xyz tests/tums/associations/fr1_xyz.txt`
-
 ---
-
-## Perception
