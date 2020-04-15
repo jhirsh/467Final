@@ -1,9 +1,14 @@
 # EECS 467 - Autonomous Robotics Final Project
 ## University of Michigan - Adam Dziedzic, Jingliang Ren, Ryan Wunderly, Jonas Hirshland {dziedada, meow, rywunder, jhirshey}@umich.edu
 
+### Reports
+
+[Video](media/EECS%20467%20Final%20Project.mp4)
+[Report](media/eecs467_final_report-1.pdf)
+[Poster](media/EECS467%20Poster-1.pdf)
+
 ### Goalkeeper
 
-![Example](media/EECS%20467%20Final%20Project.mp4)
 
 Goalkeeper is an autonomous robot that senses incoming balls and blocks them from passing. It was inspired by goalies in various sports, but mainly soccer. We demonstrate what ability is required in order to react to a human rolling a ball in the robot’s direction.
 
@@ -29,7 +34,3 @@ We use Intel Realsense D435 RGBD cameras for rgb and depth images as well as poi
 
 `make -j`
 
-### Reports
-
-![Report](media/eecs467_final_report-1.pdf)
-![Poster](media/EECS467%20Poster-1.pdf)
