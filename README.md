@@ -4,7 +4,9 @@
 ### Reports
 
 [Video](media/EECS%20467%20Final%20Project.mp4)
+
 [Report](media/eecs467_final_report-1.pdf)
+
 [Poster](media/EECS467%20Poster-1.pdf)
 
 ### Goalkeeper
